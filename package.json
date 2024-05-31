@@ -1,0 +1,29 @@
+{
+    "name": "trie-bot",
+    "version": "1.0.0",
+    "description": "A matrix bot to automatically build and generate a Trie of all messages.",
+    "main": "index.mjs",
+    "scripts": {
+        "bot": "node index.mjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://ari.lt/gh/trie-bot"
+    },
+    "keywords": [
+        "matrix",
+        "trie",
+        "matrix",
+        "markov"
+    ],
+    "author": "Ari Archer",
+    "license": "AGPL-3.0-or-later",
+    "devDependencies": {
+        "@eslint/js": "^9.0.0",
+        "eslint": "^9.0.0",
+        "globals": "^15.0.0"
+    },
+    "dependencies": {
+        "matrix-bot-sdk": "^0.7.1"
+    }
+}

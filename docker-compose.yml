@@ -1,0 +1,8 @@
+version: "3"
+services:
+  trie-bot:
+    build: .
+    volumes:
+      - ./model.bin:/opt/app/model.bin
+    environment:
+      - NODE_ENV=production
