@@ -48,7 +48,7 @@ async function cmd_gen(room_id, event) {
         await client.replyHtmlNotice(
             room_id,
             event,
-            `[${args[2]}] ${data.replaceAll("\n", "<br/>")}`,
+            `[${args[2]}] ${String(data).replaceAll("\n", "<br/>")}`,
         );
     });
 }
