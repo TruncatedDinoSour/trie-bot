@@ -23,7 +23,7 @@ function get_command_argument(event) {
 async function cmd_gen(room_id, event) {
     // trie-generate <model.bin> <seed> <min size> <count>
     // to
-    // gen [count = 1] [min size = 16]  [seed = (Math.random() * 1000) + new Date().getTime()]
+    // gen [count = 1] [min size = 16] [seed = (Math.random() * 1000) + new Date().getTime()]
 
     let arg = get_command_argument(event);
     let args = ["1", "16", String(Math.random() * 1000 + new Date().getTime())];
@@ -66,7 +66,7 @@ This room is <b>${config.rooms.includes(room_id) ? "being learnt" : "ignored"}</
 Commands:<br/>
 <br/>
 <ul>
-<li>gen [min size = 16] [count = 1] [seed = (Math.random() * 1000) + new Date().getTime()] -- Get a new model-like message.</li>
+<li>gen [count = 1] [min size = 16] [seed = (Math.random() * 1000) + new Date().getTime()] -- Get a new model-like message.</li>
 </ul>
 <br/>
 Source code: https://ari.lt/gh/trie-bot
