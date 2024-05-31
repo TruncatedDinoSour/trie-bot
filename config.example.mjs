@@ -11,7 +11,7 @@ const config = {
         "#quotes:ari.lt",
         "#gpt:pain.agency",
     ] /* The rooms of trie-bot */,
-    model: "/opt/app/model.bin" /* The model of the Trie */,
+    model: "model.bin" /* The model of the Trie */,
 };
 
 export default config;

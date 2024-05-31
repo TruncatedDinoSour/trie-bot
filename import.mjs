@@ -2,7 +2,7 @@
 
 import fs from "fs";
 import { spawn } from "child_process";
-import { config } from "./config.mjs";
+import config from "./config.mjs";
 
 const tf = process.argv.length - 2;
 
