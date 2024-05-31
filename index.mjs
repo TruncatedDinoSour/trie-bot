@@ -68,6 +68,8 @@ Commands:<br/>
 <ul>
 <li>gen [min size = 16] [count = 1] [seed = (Math.random() * 1000) + new Date().getTime()] -- Get a new model-like message.</li>
 </ul>
+<br/>
+Source code: https://ari.lt/gh/trie-bot
 `,
         );
 }
