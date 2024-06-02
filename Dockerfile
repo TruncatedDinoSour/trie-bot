@@ -10,9 +10,9 @@ ENV STRIPFLAGS='--strip-debug --strip-unneeded --remove-section=.note.gnu.gold-v
 ENV LIBDIR=/lib
 
 # Libtrie
-RUN wget https://ari.lt/gh/libtrie/archive/refs/tags/v1.tar.gz
-RUN tar xf v1.tar.gz
-RUN cd libtrie-1 && make install -j$(nproc)
+RUN wget https://ari.lt/gh/libtrie/archive/refs/tags/v2.tar.gz
+RUN tar xf v2.tar.gz
+RUN cd libtrie-2 && make install -j$(nproc)
 
 # NodeJS
 COPY package*.json /tmp/
